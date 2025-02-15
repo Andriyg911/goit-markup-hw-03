@@ -123,8 +123,7 @@ color: #4d5ae5;
 }
 /*#endregion header*/
 /* #region main */
-.main {
-}
+
 .effective-solutions {
   background-color: #2e2f42;
 padding-top: 188px;
@@ -178,7 +177,6 @@ border-radius: 4px;
 .section-one-list {
   display: flex;
   justify-content: space-between;
-  
   gap: 24px; 
 }
 .section-one-list-item {
