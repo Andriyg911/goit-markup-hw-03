@@ -129,6 +129,7 @@ color: #4d5ae5;
 .effective-solutions {
   background-color: #2e2f42;
   padding-bottom: 188px;
+  padding-top: 188px;
 }
 .effective-solutions-h {
   font-weight: 700;
@@ -180,14 +181,19 @@ border-radius: 4px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 8px;
+  gap: 24px; 
 }
 .section-one-list-item {
   /* max-width: 264px; */
   width: calc((100% - 24px * 3) / 4); 
   gap: 24px;
   margin-bottom: 8px;
+  margin-right: 24px;
 }
-.section-one-item-title {
+.fo {
+  margin-right: 0;
+}
+.section-one-item-title-textb {
   font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -262,9 +268,7 @@ text-align: center;
 /* #endregion team */
 /* #region portfolio */
 .portfolio {
-  padding-top: 120px;
-  padding-bottom: 120px; 
-  
+  padding: 120px 0 120px 0;
 }
 .portfolio-title {
   font-weight: 700;
