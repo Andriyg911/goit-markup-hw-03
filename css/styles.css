@@ -183,9 +183,9 @@ border-radius: 4px;
   /* max-width: 264px; */
   /* width: calc((100% - 24px * 3) / 4);  */
   width: calc((100% - 72px) / 4); 
-  gap: 24px;
-  margin-right: 24px;
-}
+  gap: 24px; 
+  /* margin-right: 24px;*/
+} 
 .fo {
   margin-right: 0;
 }
